@@ -563,7 +563,7 @@ function roundToNearestInteger(number) {
  * -5.5 => -5
  */
 function getIntegerPartNumber(number) {
-  return Math.trunc(number / 1);
+  return Math.trunc(number);
 }
 
 /**
